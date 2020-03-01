@@ -1,12 +1,7 @@
 ### Install Java
-sudo apt update
-sudo apt install apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common
-wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
-sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
-sudo apt update
-sudo apt install adoptopenjdk-8-hotspot
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk openjdk-8-jre
 java -version
-
 
 ### Download and install the Public Signing Key
 wget -qO - https://packages.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
@@ -24,4 +19,3 @@ sleep 10
 
 ### Make sure service is running
 curl http://localhost:9200
-
