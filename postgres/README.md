@@ -12,5 +12,5 @@ create database and user
 
 args:
 - `db`: database name
-- `user`: database database user
+- `user`: database owner
 - `pass`: user's password
