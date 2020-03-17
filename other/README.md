@@ -17,7 +17,7 @@ project
 │       └── sites-available
 └── var
     └── log
-        └── marketing
+        └── project
 ```
 
 args:
