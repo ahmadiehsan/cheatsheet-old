@@ -14,6 +14,6 @@ mkdir -p var/log/$1
 cd /$1/etc
 git clone https://mgit.mparsict.com/ahmadiehsan/cheatsheet.git
 
-# create blank nginx config
-touch /$1/etc/nginx/sites-available/$1
+# create sample nginx-gunicorn config
+cp /$1/etc/cheatsheet/nginx/nginx-gunicorn-config /$1/etc/nginx/sites-available/$1
 
