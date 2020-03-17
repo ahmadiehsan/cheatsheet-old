@@ -4,7 +4,7 @@
 
 ### virtualenv
 
-install, create and activate virtualenv
+install and create virtualenv
 
 args:
 
