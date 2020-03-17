@@ -2,5 +2,11 @@
 
 ## Makefile Commands
 
-- install
-- create (args: `db`: database name, `user`: username, `pass`: user's password)
+### install
+
+install postgers on machine
+
+### create
+
+create database and user
+args: `db`: database name, `user`: database database user, `pass`: user's password
