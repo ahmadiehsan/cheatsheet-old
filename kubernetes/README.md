@@ -7,5 +7,5 @@
 install kubeadm on machine
 
 args:
-- `os`: debian or ~~ubuntu~~
+- `os`: debianbase
 
