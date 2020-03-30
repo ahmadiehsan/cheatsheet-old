@@ -7,5 +7,5 @@
 install docker on machine
 
 args:
-- `os`: debian or ~~ubuntu~~
+- `os`: debian or ubuntu
 
