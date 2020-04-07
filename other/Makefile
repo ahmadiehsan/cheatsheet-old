@@ -20,3 +20,4 @@ scaffolding:
 	echo "alias cd.client='cd /$(project)/app/client'" >> /home/$(USER)/.bashrc
 	echo "alias cd.cheatsheet='cd /$(project)/etc/cheatsheet'" >> /home/$(USER)/.bashrc
 	echo "alias cd.nginx='cd /$(project)/etc/nginx/sites-available'" >> /home/$(USER)/.bashrc
+	echo "alias cd.log='cd /$(project)/var/log'" >> /home/$(USER)/.bashrc
