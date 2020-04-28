@@ -29,3 +29,6 @@ scaffolding:
 	echo "alias cd.system='cd /$(project)/systemd/system'" >> /home/$(USER)/.bashrc
 	echo "alias ll='ls -l'" >> /home/$(USER)/.bashrc
 	echo "alias la='ls -la'" >> /home/$(USER)/.bashrc
+
+	# create help file for newcomers
+	cd ~; printf '# $(project) project\n\nproject and all of the project related content is in /$(project)\n\ncd /$(project)\n' >> README.md
