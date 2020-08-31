@@ -6,7 +6,7 @@ scaffolding:
 	cd /; sudo mkdir $(project); sudo chown -R $(USER): $(project)
 	
 	# create other directories
-	cd /$(project); mkdir -p app; mkdir -p etc/nginx/sites-available; mkdir -p var/log/$(project); mkdir -p systemd/system
+	cd /$(project); mkdir -p app; mkdir -p etc/nginx/sites-available; mkdir -p var/log/$(project); mkdir -p etc/systemd/system
 	
 	# clone chearsheet repo
 	cd /$(project)/etc; git clone https://mgit.mparsict.com/ahmadiehsan/cheatsheet.git
